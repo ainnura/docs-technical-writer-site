@@ -2,7 +2,7 @@
 slug: welcome
 title: Meet Writer
 authors: [ainnuraini]
-tags: [technicalwriter, technicalwriter, docusaurus]
+tags: [technicalwriter, docusaurus]
 ---
 
 <!-- truncate -->

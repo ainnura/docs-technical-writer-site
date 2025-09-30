@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [ainnuraini]
-tags: [technicalwriter, technicalwriter, docusaurus]
+tags: [technicalwriter, docusaurus]
 ---
 
 Lorem ipsum dolor sit amet...
