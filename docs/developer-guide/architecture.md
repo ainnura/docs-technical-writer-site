@@ -1,18 +1,35 @@
 ---
-id: authentication
-title: Authentication
+id: architecture
+title: System Architecture
+sidebar_label: Architecture
 ---
 
-# API Authentication
+# System Architecture
 
-Taskify API uses **Bearer Token Authentication** to secure every request.
+This document provides an overview of the **Taskify architecture**, including its main components, data flow, and design principles.
 
-### Obtain an Access Token
-1. Log in through the `/auth/login` endpoint.  
-2. The response will include an access token in JSON format.
+---
 
-Example response:
-```json
-{
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR..."
-}
+## Overview
+
+Taskify is built using a **modular microservices architecture** to ensure scalability, maintainability, and flexibility for future growth.
+
+Each service handles a specific domain, communicating securely through REST APIs.
+
+---
+
+## Architecture Diagram
+```mermaid
+graph TD
+
+A[Client (Web/Mobile)]
+A --> B[API Gateway / Backend Service]
+
+B --> C1[User Service]
+B --> C2[Task Service]
+B --> C3[Auth Service]
+
+C1 --> D1[(Database)]
+C2 --> D2[(Database)]
+C3 --> D3[(Database)]
+```
