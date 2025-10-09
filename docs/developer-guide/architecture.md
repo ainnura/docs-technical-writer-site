@@ -19,17 +19,16 @@ Each service handles a specific domain, communicating securely through REST APIs
 ---
 
 ## Architecture Diagram
+
+
 ```mermaid
 graph TD
 
-A[Client (Web/Mobile)]
-A --> B[API Gateway / Backend Service]
-
-B --> C1[User Service]
-B --> C2[Task Service]
-B --> C3[Auth Service]
-
-C1 --> D1[(Database)]
-C2 --> D2[(Database)]
-C3 --> D3[(Database)]
+    A[Client (Web/Mobile)] --> B[API Gateway / Backend Service]
+    B --> C1[User Service]
+    B --> C2[Task Service]
+    B --> C3[Auth Service]
+    C1 --> D1[(Database)]
+    C2 --> D2[(Database)]
+    C3 --> D3[(Database)]
 ```
