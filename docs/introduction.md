@@ -1,8 +1,10 @@
-# Taskify Documentation
+---
+id: introduction
+title: Introduction
+---
 
-Selamat datang di dokumentasi **Taskify**, aplikasi to-do list sederhana untuk membantu Anda mengelola tugas harian.
+# Introduction to Taskify
 
-Di dokumentasi ini Anda akan menemukan:
-- 📘 User Guide untuk pengguna
-- 🔌 API Reference untuk integrasi developer
-- 🛠 Developer Guide untuk kontribusi & pengembangan
+**Taskify** is a lightweight and collaborative task management platform designed to help individuals and teams stay organized and productive.  
+
+This documentation provides a complete overview of how to use Taskify, integrate with its APIs, and set up your own local development environment.

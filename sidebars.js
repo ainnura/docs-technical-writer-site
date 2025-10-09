@@ -1,5 +1,5 @@
 const sidebars = {
-  docsSidebar: [
+  tutorialSidebar: [  // ubah dari docsSidebar jadi tutorialSidebar
     {
       type: 'doc',
       id: 'introduction',
