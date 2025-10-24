@@ -1,5 +1,8 @@
+// sidebars.js
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  tutorialSidebar: [  // ubah dari docsSidebar jadi tutorialSidebar
+  tutorialSidebar: [
     {
       type: 'doc',
       id: 'introduction',
@@ -47,6 +50,8 @@ const sidebars = {
       ],
     },
   ],
+
+
 };
 
 export default sidebars;
